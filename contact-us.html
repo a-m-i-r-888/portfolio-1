@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- own Css -->
+  <link rel="stylesheet" href="Css/contact-us.css">
+  <!-- current page Js -->
+  <script defer src="Js/currentPage.js"></script>
+  <!-- horizontal scrollbar Js -->
+  <script defer src="Js/horizontalScrollbar.js"></script>
+  <!-- smooth scroll Js -->
+  <script defer src="https://unpkg.com/lenis@1.3.11/dist/lenis.min.js"></script>
+  <script defer src="Js/smooth-scroll.js"></script>
+  <!-- sticky nav Js -->
+  <!-- <script defer src="Js/stickyNav.js"></script> -->
+  <!-- map -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css">
+  <script defer src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script defer src="Js/map.js"></script>
+  <!-- icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" />
+  <title>about-us</title>
+</head>
+
+<body>
+  <header>
+    <!-- mouse cursor -->
+    <!-- <div class="cursor-container">
+      <div class="cursor"></div>
+    </div> -->
+    <!-- horizontal scrollbar -->
+    <div class="scroll-progress"></div>
+    <!-- header -->
+    <div class="top-header-content">
+      <div class="top-header-logo">
+        <img src="Images/logo.png" alt="logo" />
+      </div>
+      <nav class="top-header-nav navbar">
+        <ul>
+          <li><a href="index.html" class="nav-link">خانه </a></li>
+          <li><a href="services.html" class="nav-link">خدمات</a></li>
+          <li><a href="portfolio.html" class="nav-link">پروژه‌های ما</a></li>
+          <li><a href="blog.html" class="nav-link">وبلاگ</a></li>
+          <li><a href="about-us.html" class="nav-link">درباره ما</a></li>
+          <li><a href="contact-us.html" class="nav-link">تماس با ما</a></li>
+        </ul>
+      </nav>
+      <div class="top-header-get-start">
+        <button class="btn">درخواست مشاوره<i class="ri-chat-new-line"></i></button>
+      </div>
+    </div>
+  </header>
+  <section class="first-section">
+    <div class="first-section-content">
+      <div class="section-title">
+        <h2>تماس با ما</h2>
+        <p>ما مشتاق شنیدن نظرات و پیشنهادها شما هستیم</p>
+      </div>
+      <div class="contact-container">
+        <div class="form-container">
+          <form action="">
+            <h5 class="form-name">نام و نام‌خانوادگی</h5>
+            <input type="text" class="input-name" placeholder="محمد احمدی">
+            <div class="email-discribe-div">
+              <h5 class="fomr-email">ایمیل</h5>
+              <input type="email" class="input-email" placeholder="infokayan@gmail.com">
+              <h5 class="form-name">موضوع</h5>
+              <input type="text" class="input-name" placeholder="موضوع">
+              <h5 class="form-discribe">درباره پروژه‌تان بگویید</h5>
+              <textarea name="" id="" class="textarea"
+                placeholder="نوع پروژه، بودجه تقریبی و زمان‌بندی مورد نظر..."></textarea>
+            </div>
+            <input type="submit" value="ارسال پیام" class="submit">
+          </form>
+        </div>
+        <div class="info-contaienr">
+          <div class="way-container">
+            <a href="">
+              <div class="features-second-container">
+                <div class="features">
+                  <h3>
+                    تماس تلفنی
+                  </h3>
+                  <p>8244 260 0903</p>
+                </div>
+                <div class="icon-box">
+                  <ul>
+                    <li><i class="ri-phone-line"></i></li>
+                  </ul>
+                </div>
+              </div>
+            </a>
+            <a href="">
+              <div class="features-second-container">
+                <div class="features">
+                  <h3>چت در واتساپ</h3>
+                  <p>پاسخ سریع در دقایق اولیه</p>
+                </div>
+                <div class="icon-box">
+                  <ul>
+                    <li><i class="ri-whatsapp-line"></i></li>
+                  </ul>
+                </div>
+              </div>
+            </a>
+            <a href="">
+              <div class="features-second-container">
+                <div class="features">
+                  <h3>ارسال ایمیل</h3>
+                  <p>info@akiaweb.ir</p>
+                </div>
+                <div class="icon-box">
+                  <ul>
+                    <li><i class="ri-mail-line"></i></li>
+                  </ul>
+                </div>
+              </div>
+            </a>
+            <a href="">
+              <div class="features-second-container">
+                <div class="features">
+                  <h3>ارسال تیکت</h3>
+                  <p>ارتباط ما</p>
+                </div>
+                <div class="icon-box">
+                  <ul>
+                    <li><i class="ri-mail-line"></i></li>
+                  </ul>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="map-section">
+    <div id="map"></div>
+  </section>
+</body>
+
+</html>
