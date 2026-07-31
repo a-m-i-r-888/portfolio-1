@@ -411,6 +411,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding: 40px 0px 0px;
 }
 
 .button-container button {
