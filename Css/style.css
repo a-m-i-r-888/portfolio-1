@@ -806,6 +806,25 @@ header {
   padding: 0px 0px 20px;
 }
 
+.sixth-section-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 0px 25px;
+}
+
+.sixth-section-content h2 {
+  color: #0d1424;
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+
+.sixth-section-content p {
+  color: #64748b;
+  font-size: 16px;
+  font-weight: bold;
+}
+
 .teammate-contaimer {
   display: flex;
   flex-direction: row;
