@@ -251,7 +251,7 @@ header {
   overflow: hidden;
 }
 
-.first-section-content button {
+/* .first-section-content button {
   display: flex;
   gap: 5px;
   align-items: center;
@@ -260,7 +260,7 @@ header {
   padding: 15px 30px;
   color: white;
   border-radius: 30px;
-}
+} */
 
 .blog-text {
   display: flex;
