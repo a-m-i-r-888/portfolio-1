@@ -134,7 +134,7 @@ header {
   display: flex;
   flex-direction: row;
   width: 90%;
-  padding: 0px 22px;
+  padding: 18px 22px 15.7px;
   box-shadow: 1px 1px 10px #ebeaeab2;
   justify-content: space-between;
   align-items: center;
