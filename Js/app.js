@@ -11,4 +11,3 @@ const goToSlide = function (num) {
   })
 }
 goToSlide(0)
-
